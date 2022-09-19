@@ -21,7 +21,7 @@ First, when cleaning the data we decided to drop the following values due to the
 
 Next, we created a function that binned the data into general companies –  Apple or Google. Any data point that could be classified was dropped as it would not give us usable feedback on our products or services. Next we examined the overall sentiments of all tweets of both Apple and Google. 
 
-**INSERT GRAPH**
+![sentimentgraph](./images/overall_sentiment.png)
 
 **Initial takeaways**: 
 - Apple has more mentions than Google overall.
@@ -31,13 +31,19 @@ Next, we created a function that binned the data into general companies –  App
 We furthered filtered the data to keep tweets that were only relevant to Apple, separated them by sentiment, and created word clouds that shows us the most relevelent words being used by participants. 
 
 **Most Releant Positive Words**
-INSERT CLOUD
+
+
+![positive](./images/poscloud.png)
 
 **Most Releant Neutral Words**
-INSERT CLOUD
+
+
+![neutral](./images/neutcloud.png)
 
 **Most Releant Negative Words**
-INSERT CLOUD
+
+
+![negative](./images/negcloud.png)
 
 ***
 ## Methods
@@ -71,7 +77,7 @@ After an initial test, the top three performing models that will be grid searche
     2. Bagging – accuracy: 62%, precision: 64%,  f1: 61%
     3. Gradient Boosting: accuracy: 64%, precision: 65%, f1: 59%
 
-**INSERT CONFUSIONS & RUCAUC**
+**INSERT CONFUSIONS & RUCAUCS**
 
 ***
 ## Evaluation 
