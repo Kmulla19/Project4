@@ -103,21 +103,32 @@ The model seems to be labeling positive tweets as neutral. This may be from huma
 *Example of duplicate tweets with differing sentiments*
 ![duplicates](./images/dups.png)
 
+However, the models did a decent job determining negative sentiments. These tweets are more helpful when it comes to customer service concerns and how we can better improve SXSW experinces and general Apple products. 
+
 ***
 ## Conclusions & Opportunites 
 ### Event Opportunities
+Continue: 
+- Continue the pop-up stores
+- Continue product giveaways
 
+Implement:
+- Host party with special guests from Apple
+    - Google had similar event and recieved much positive press/tweets
 
 ### Product Opporunities 
+iWatch
+- Smaller device that can help save iphone battery. 
+- Can integrate navigation and fitness tracking. 
 
 ***
-
 ## Limitations & Next Steps
+1. Our next steps would be to go back to the data and see if we could eliminate near duplicate tweets (these are tweets or retweets that are similar except the person mentioned) and to check the sentiment of the tweets. The initial sentiment of the tweets in this data set were labeled by humans and some of the near duplicate tweets have different sentiments causing some confusion in the model. 
 
-
+2. Would like more tweets/data to run on the model to judge performance outside of this one event and see how it can be implemented for customer service. 
 
 ***
 ### For more information: 
-Please review our full analysis in our **LINK Jupyter Notebook** or our **LINK presentation**.
+Please review our full analysis in our [Jupyter Notebook](./piping_hot.ipynb)or our **presentation**.
 
 For any additional questions, please contact Cameron: tavarescameron1@gmail.com, Ashli: ashli.d.dougherty@gmail.com, or Kelly: mullaney.kelly.k@gmail.com 
