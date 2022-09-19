@@ -130,14 +130,18 @@ iWatch
 
 ***
 ### For more information: 
-Please review our full analysis in our [Jupyter Notebook](./code/piping_hot.ipynb) or our [presentation](./Presentation P4).
+Please review our full analysis in our [Jupyter Notebook](./code/piping_hot.ipynb) or our [presentation](./PresentationP4).
 
 For any additional questions, please contact Cameron: tavarescameron1@gmail.com, Ashli: ashli.d.dougherty@gmail.com, or Kelly: mullaney.kelly.k@gmail.com 
 
 '''sh
-├── code                                   <- Narrative documentation of analysis in Jupyter notebook   
+├── code                                   <- Narrative documentation of analysis in Jupyter notebook
+   
 ├── data                                   <- Both sourced externally and generated from code
+
 ├── images                                 <- Both sourced externally and generated from code
+
 ├── DS_Project_Presentation.pdf            <- PDF version of project presentation
+
 └── README.md                              <- The top-level README for reviewers of this project
 '''
