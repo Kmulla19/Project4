@@ -134,14 +134,11 @@ Please review our full analysis in our [Jupyter Notebook](./code/piping_hot.ipyn
 
 For any additional questions, please contact Cameron: tavarescameron1@gmail.com, Ashli: ashli.d.dougherty@gmail.com, or Kelly: mullaney.kelly.k@gmail.com 
 
-'''
+### Repository Structure 
+```
 ├── code                                   <- Narrative documentation of analysis in Jupyter notebook
-   
 ├── data                                   <- Both sourced externally and generated from code
-
 ├── images                                 <- Both sourced externally and generated from code
-
 ├── DS_Project_Presentation.pdf            <- PDF version of project presentation
-
 └── README.md                              <- The top-level README for reviewers of this project
-'''
+```
