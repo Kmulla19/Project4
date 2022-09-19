@@ -81,8 +81,8 @@ Used classification models that would predict the sentiment of the tweet based o
 ## Modeling
 After an initial test, the top three performing models that will be grid searched for best parameters and compared again are: 
   1. **RBF SVM** –  accuracy: 66%, precision: 66%, f1: 62%
-![svmcm](./images/svmcm.png)
-![svmroc](./images/svmroc.png)
+![svccm](./images/svmcm.png)
+![svcroc](./images/svmroc.png)
 
 
   2. **Bagging** – accuracy: 62%, precision: 64%,  f1: 61%
@@ -129,6 +129,26 @@ iWatch
 
 ***
 ### For more information: 
-Please review our full analysis in our [Jupyter Notebook](./piping_hot.ipynb)or our **presentation**.
+Please review our full analysis in our [Jupyter Notebook](./code/piping_hot.ipynb) or our [presentation](./Presentation P4).
 
 For any additional questions, please contact Cameron: tavarescameron1@gmail.com, Ashli: ashli.d.dougherty@gmail.com, or Kelly: mullaney.kelly.k@gmail.com 
+
+'''sh
+├── code
+    ├── WordClouds.ipynnb
+    ├── model.ipynnb
+    ├── piping_hot.ipynnb
+    ├── piping_vizualization.ipynnb
+    ├── preprocess.ipynnb
+├── data
+    ├── cleaned.csv
+    ├── configurator.yaml
+    ├── tweet_tweet.csv
+    ├── tweets.csv
+    ├── tweets_2017.csv
+├── images
+├── .gitigore
+├── PresenationP4.pdf
+├── README.md
+└──
+'''
