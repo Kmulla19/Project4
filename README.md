@@ -45,6 +45,13 @@ We further filtered the data to keep tweets that were only relevant to Apple, se
 
 ![negative](./images/negcloud.png)
 
+Based on this we can see that participants were excited about the launch of the new iPad2 and the pop-up store at the conference. Neutral references mostly mention the existence of the pop-up store (likely new stories covering the opening of the store). 
+
+There were three main topics for negative tweets. 
+1. The battery life of their Apple products while using them during sessions at the conference
+2. Poorly designed apps that caused "headaches"
+3. That Apple is a “facist” company.  
+
 ***
 ## Methods
 Built a custom transformer that works in Pipeline:
@@ -73,11 +80,19 @@ Used classification models that would predict the sentiment of the tweet based o
 ***
 ## Modeling
 After an initial test, the top three performing models that will be grid searched for best parameters and compared again are: 
-    1. **RBF SVM** –  accuracy: 66%, precision: 66%, f1: 62%
-    2. **Bagging** – accuracy: 62%, precision: 64%,  f1: 61%
-    3. **Gradient Boosting**: accuracy: 64%, precision: 65%, f1: 59%
+  1. **RBF SVM** –  accuracy: 66%, precision: 66%, f1: 62%
+![svmcm](./images/svmcm.png)
+![svmroc](./images/svmroc.png)
 
-**INSERT CONFUSIONS & RUCAUCS**
+
+  2. **Bagging** – accuracy: 62%, precision: 64%,  f1: 61%
+![bagcm](./images/bagcm.png)
+![bagroc](./images/bagroc.png)
+
+
+  3. **Gradient Boosting**: accuracy: 64%, precision: 65%, f1: 59%
+![gbcm](./images/gbcm.png)
+![gbroc](./images/gbroc.png)
 
 ***
 ## Evaluation 
