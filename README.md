@@ -28,19 +28,19 @@ Next, we created a function that binned the data into general companies –  App
 - Of Tweets that had a sentiment, 39% were positive and only 8% were negative. 
 - When we compare this our competitor, only 30% were positive tweets, but Google had overall fewer negative tweets (5% of total mentions).
 
-We furthered filtered the data to keep tweets that were only relevant to Apple, separated them by sentiment, and created word clouds that shows us the most relevelent words being used by participants. 
+We further filtered the data to keep tweets that were only relevant to Apple, separated them by sentiment, and created word clouds that showed us the most relevant words being used by participants. 
 
-**Most Releant Positive Words**
+**Most Relevant Positive Words**
 
 
 ![positive](./images/poscloud.png)
 
-**Most Releant Neutral Words**
+**Most Relevant Neutral Words**
 
 
 ![neutral](./images/neutcloud.png)
 
-**Most Releant Negative Words**
+**Most Relevant Negative Words**
 
 
 ![negative](./images/negcloud.png)
@@ -73,9 +73,9 @@ Used classification models that would predict the sentiment of the tweet based o
 ***
 ## Modeling
 After an initial test, the top three performing models that will be grid searched for best parameters and compared again are: 
-    1. RBF SVM –  accuracy: 66%, precision: 66%, f1: 62%
-    2. Bagging – accuracy: 62%, precision: 64%,  f1: 61%
-    3. Gradient Boosting: accuracy: 64%, precision: 65%, f1: 59%
+    1. **RBF SVM** –  accuracy: 66%, precision: 66%, f1: 62%
+    2. **Bagging** – accuracy: 62%, precision: 64%,  f1: 61%
+    3. **Gradient Boosting**: accuracy: 64%, precision: 65%, f1: 59%
 
 **INSERT CONFUSIONS & RUCAUCS**
 
@@ -85,6 +85,8 @@ Even after grid searching the best performing model was still RBF SVM with defau
 
 The model seems to be labeling positive tweets as neutral. This may be from human error as near duplicate tweets in the dataset were labeled with opposing sentiments between the train and test sets. As the majority of tweets are neutral, the model may be overtrained on neutral sentiments. As we saw from the word clouds, neutral and positive tweets have a lot of token overlap and context can be hard to decipher. 
 
+*Example of duplicate tweets with differing sentiments*
+![duplicates](./images/dups.png)
 
 ***
 ## Conclusions & Opportunites 
@@ -96,6 +98,8 @@ The model seems to be labeling positive tweets as neutral. This may be from huma
 ***
 
 ## Limitations & Next Steps
+
+
 
 ***
 ### For more information: 
